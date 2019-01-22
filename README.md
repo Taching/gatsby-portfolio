@@ -1,5 +1,7 @@
 ## To start
+
 gatsby develop
+
 ---
 ## Used Plugins
 
@@ -8,4 +10,5 @@ gatsby develop
 *Styled-Components
 
 ## Gatsby Starter
+
 [gatsby-start-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
