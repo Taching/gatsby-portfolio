@@ -1,14 +1,11 @@
+## To start
+gatsby develop
+---
+## Used Plugins
 
-    ```
-    # to start run
-    gatsby develop
-    ```
-    ```
-    gatsby
-    React
-    Styled-Components
-    ```
-    Your site is now running at `http://localhost:8000`!
+*React.js
+*Gatsby.js
+*Styled-Components
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
+## Gatsby Starter
+[gatsby-start-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
