@@ -37,7 +37,8 @@ import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import AppBar from '@material-ui/core/AppBar'
 import Toolbar from '@material-ui/core/Toolbar'
-import { Navlink } from './styles/Allstyle'
+import { Navlink, NavStyle, Logo } from './styles/componentstyle'
+import * as color from './styles/colors'
 
 const styles = {
   root: {
@@ -55,14 +56,15 @@ const styles = {
 function ButtonAppBar(props) {
   const { classes } = props
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
+    <NavStyle className={classes.root}>
+      <AppBar position="static" className={classes.root}>
         <Toolbar>
-          <Navlink to="/">Home</Navlink>
-          <Navlink to="/blog">blog</Navlink>
+          <Logo>takatoshiw.</Logo>
+          <Navlink to="/">| home </Navlink>
+          <Navlink to="/blog">| blog</Navlink>
         </Toolbar>
       </AppBar>
-    </div>
+    </NavStyle>
   )
 }
 

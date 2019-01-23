@@ -1,19 +1,21 @@
 ---
-title: New Beginnings
-date: '2015-05-28T22:40:32.169Z'
+title: "f*ck gym, Start calisthenics"
+date: '2019-01-23T22:40:32.169Z'
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+I will start telling you a story why I started Calisthenics
+I've been doing Calisthenics a quite sometime now (maybe 6-7 years idk.) and yet there's lot of room for improvements.
 
-## On deer horse aboard tritely yikes and much
+## So why did I start Calisthenics?
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Started when my teammate 'Marc' in jiujitsu class, every single time we sparred and when I caught him with pretty good position in armbar yet I could not finish my submission due to his brute strength and flexibility.
+
+If you dont know what armbar is here it is:
+![Armbar](./armbar.jpg)
+### I asked him with frustration why are you so strong ?
+
+he said Calisthenics
+
 
 - This however showed weasel
 - Well uncritical so misled

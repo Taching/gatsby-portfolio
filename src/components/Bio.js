@@ -15,6 +15,7 @@ function Bio() {
             style={{
               display: `flex`,
               marginBottom: rhythm(2.5),
+              marginTop: rhythm(1.5),
             }}
           >
             <Image
@@ -32,7 +33,7 @@ function Bio() {
             />
             <p>
               <strong>{author}</strong> I'm front-end developer I write{' '}
-              <Link to="/Blog">blogs</Link> about fitness, books and my journey
+              <Link to="/blog">blogs</Link> about fitness, books and my journey
               as developer{' '}
               <a href={`https://instagram.com/${social.instagram}`}>
                 feel free to follow me on instagram
