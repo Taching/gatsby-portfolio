@@ -1,6 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 import { rhythm, scale } from '../utils/typography'
+import 'semantic-ui-less/semantic.less'
 
 class Layout extends React.Component {
   render() {
