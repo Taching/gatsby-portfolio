@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
 
 import { rhythm } from '../utils/typography'
@@ -31,10 +31,9 @@ function Bio() {
               }}
             />
             <p>
-              <strong>{author}</strong>
-              {` `} I'm front-end developer I write blogs about fitness, books
-              and my journey as developer
-              {` `}
+              <strong>{author}</strong> I'm front-end developer I write{' '}
+              <Link to="/Blog">blogs</Link> about fitness, books and my journey
+              as developer{' '}
               <a href={`https://instagram.com/${social.instagram}`}>
                 feel free to follow me on instagram
               </a>

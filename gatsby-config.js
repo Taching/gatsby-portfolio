@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Hi I'm Taka`,
+    title: `Taka`,
     author: `Takatoshi Wada`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       instagram: `tachingers`,
+      github: `Taching`,
+      email: `fueledbytaching@gmail.com`,
     },
   },
   plugins: [
