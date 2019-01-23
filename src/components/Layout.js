@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import { rhythm, scale } from '../utils/typography'
+import { LayoutStyle } from '../components/styles/componentstyle'
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -52,7 +53,7 @@ class Layout extends React.Component {
     // }
 
     return (
-      <div>
+      <LayoutStyle>
         <Navigation />
         <div
           style={{
@@ -61,12 +62,13 @@ class Layout extends React.Component {
             maxWidth: rhythm(24),
             padding: `${rhythm(0.1)} ${rhythm(3 / 4)}`,
             boxShadow: `none`,
+            minHeight: `calc(100vh - 112px)`,
           }}
         >
           {children}
-          <Footer />
         </div>
-      </div>
+        <Footer />
+      </LayoutStyle>
     )
   }
 }
