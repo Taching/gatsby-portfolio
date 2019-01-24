@@ -27,8 +27,8 @@ function ButtonAppBar(props) {
           {/* <Logo>takatoshiw.</Logo> */}
           <Navlink to="/">HOME </Navlink>
           <Navlink to="/blog">BLOG</Navlink>
-          <Navlink to="/blog">ABOUT ME</Navlink>
-          <Navlink to="/blog">MORE</Navlink>
+          <Navlink to="/">ABOUT ME</Navlink>
+          <Navlink to="/">MORE</Navlink>
         </Toolbar>
       </AppBar>
     </NavStyle>

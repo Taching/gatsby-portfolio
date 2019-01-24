@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Bio from '../components/Bio'
 import Layout from '../components/Layout'
+import Hero from '../components/Hero'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
 
@@ -14,7 +15,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <Bio />
+        <Hero />
       </Layout>
     )
   }

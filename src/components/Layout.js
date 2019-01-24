@@ -1,8 +1,12 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
+import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import { rhythm, scale } from '../utils/typography'
-import { LayoutStyle } from '../components/styles/componentstyle'
+import {
+  LayoutStyle,
+  ContainerStyle,
+} from '../components/styles/componentstyle'
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -55,18 +59,15 @@ class Layout extends React.Component {
     return (
       <LayoutStyle>
         <Navigation />
-        <div
+        <ContainerStyle
           style={{
-            marginLeft: `auto`,
-            marginRight: `auto`,
             maxWidth: rhythm(24),
             padding: `${rhythm(0.1)} ${rhythm(3 / 4)}`,
             boxShadow: `none`,
-            minHeight: `calc(100vh - 112px)`,
           }}
         >
           {children}
-        </div>
+        </ContainerStyle>
         <Footer />
       </LayoutStyle>
     )
