@@ -26,7 +26,7 @@ function ButtonAppBar(props) {
         <Toolbar className={classes.root}>
           {/* <Logo>takatoshiw.</Logo> */}
           <Navlink to="/">HOME </Navlink>
-          <Navlink to="/blog">BLOG</Navlink>
+          <Navlink to="/blog/">BLOG</Navlink>
           <Navlink to="/">ABOUT ME</Navlink>
           <Navlink to="/">MORE</Navlink>
         </Toolbar>
