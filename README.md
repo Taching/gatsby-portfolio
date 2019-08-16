@@ -1,6 +1,8 @@
 # Personal Portfolio 
 A simple portfolio with Personal Blog
-Working in [Portfolio version2.0](https://github.com/Taching/V2-Portfolio)
+
+## currently moving to
+[Portfolio version2.0](https://github.com/Taching/V2-Portfolio)
 
 ## To start
 
