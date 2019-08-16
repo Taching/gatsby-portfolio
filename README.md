@@ -1,14 +1,20 @@
+# Personal Portfolio 
+A simple portfolio with Personal Blog
+Working in [Portfolio version2.0](https://github.com/Taching/V2-Portfolio)
+
 ## To start
 
 gatsby develop
 
----
-## Used Plugins
+## Deployment
 
-*React.js
-*Gatsby.js
-*Styled-Components
+Deployed with netlify
 
-## Gatsby Starter
+https://www.takatoshiwada.com
 
-[gatsby-start-blog](https://github.com/gatsbyjs/gatsby-starter-blog)
+## Built With
+
+### CLIENT
+* [REACT](https://reactjs.org/) - The web framework used
+* [GatsbyJS](https://www.gatsbyjs.org/) - Blazing fast modern site generator for React
+* [STYLED-COMPONENT](https://www.styled-components.com/) - for css Styling
